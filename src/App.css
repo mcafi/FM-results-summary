@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.result-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color: white;
+  background: linear-gradient(var(--light-slate-blue) -10%, var(--light-royal-blue) 110%);
+  border-radius: 0 0 30px 30px;
+}
+
+.TotalScore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 999px;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(var(--violet-blue), var(--persian-blue));
+}
