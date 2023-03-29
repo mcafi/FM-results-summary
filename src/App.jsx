@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import TotalScore from './components/TotalScore'
+import Result from './components/Result'
 
 function App() {
 
   return (
     <div className="App">
-      <div className="result-container">
-        <TotalScore/>
-      </div>
+      <Result />
       <div className="scores-container">
         Details
       </div>
