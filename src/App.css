@@ -95,13 +95,17 @@ h3 {
   font-weight: 800;
   font-size: 18px;
   border-radius: 999px;
-  background: linear-gradient(var(--dark-gray-blue) 0%, var(--dark-gray-blue) 10%,  var(--light-royal-blue) 60%, var(--light-slate-blue) 90%, var(--light-royal-blue) 105%);
+  background: linear-gradient(
+    var(--light-slate-blue) -5%,
+    var(--light-royal-blue) 5%,
+    var(--dark-gray-blue) 90%,
+    var(--dark-gray-blue) 100%);
   background-size: 1000px 1000px;
-  background-position-y: 0px;
-  transition: all 1s linear;
+  background-position-y: -940px;
+  transition: all .25s;
 }
 
 .button:hover {
-  background-position-y: -940px;
+  background-position-y: 0;
 }
 
