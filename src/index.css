@@ -10,6 +10,11 @@
   --green-teal: hsl(166, 100%, 37%);
   --cobalt-blue: hsl(234, 85%, 45%);
 
+  --light-red-light: hsla(0, 100%, 67%, 20%);
+  --orange-yellow-light: hsla(39, 100%, 56%, 20%);
+  --green-teal-light: hsla(166, 100%, 37%, 20%);
+  --cobalt-blue-light: hsla(234, 85%, 45%, 20%);
+
   --light-slate-blue: hsl(252, 100%, 67%);
   --light-royal-blue: hsl(241, 81%, 54%);
   --violet-blue: hsla(256, 72%, 46%, 1);
@@ -32,7 +37,7 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0;
 }

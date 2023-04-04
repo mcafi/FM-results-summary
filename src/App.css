@@ -5,7 +5,7 @@
 }
 
 .result-container {
-  height: 350px;
+  min-height: 350px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -63,12 +63,45 @@ h3 {
 }
 
 .score {
-  margin: 10px 0;
-  padding: 10px;
+  margin: 15px 0;
+  padding: 12px;
   border-radius: 10px;
 }
 
 .score-1 {
-  background-color: var(--light-red);
+  background-color: var(--light-red-light);
+}
+
+.score-2 {
+  background-color: var(--orange-yellow-light);
+}
+
+.score-3 {
+  background-color: var(--green-teal-light);
+}
+
+.score-4 {
+  background-color: var(--cobalt-blue-light);
+}
+
+.button {
+  width: 100%;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+  height: 60px;
+  margin: 20px 0;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  border-radius: 999px;
+  background: linear-gradient(var(--dark-gray-blue) 0%, var(--dark-gray-blue) 10%,  var(--light-royal-blue) 60%, var(--light-slate-blue) 90%, var(--light-royal-blue) 105%);
+  background-size: 1000px 1000px;
+  background-position-y: 0px;
+  transition: all 1s linear;
+}
+
+.button:hover {
+  background-position-y: -940px;
 }
 
